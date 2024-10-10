@@ -15,7 +15,7 @@
         ChangeLanguage: ChangeLanguage {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RWIN &kp SPACE>;
+            bindings = <&kp LGUI &kp SPACE>;
             label = "CHANGELANGUAGE";
         };
     };
