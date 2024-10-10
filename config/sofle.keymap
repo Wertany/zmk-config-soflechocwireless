@@ -16,7 +16,7 @@
         ChangeLanguage: ChangeLanguage {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kt LEFT_WIN &kp SPACE &kp LEFT_WIN>;
+            bindings = <&macro_press>, <&kt LEFT_WIN &kp SPACE &kt LEFT_WIN>;
 
             label = "CHANGELANGUAGE";
         };
